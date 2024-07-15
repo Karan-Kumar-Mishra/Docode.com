@@ -29,7 +29,7 @@ echo '
 EXPIRE_TIME=10
 EMAILE_API_KEY="8dea33eec5msh8825484ed59f6fap1b4d69jsn366810ceca5e"
 PORT=80
-` > .env 
+' > .env 
 npm install 
 node server.js
 ```
