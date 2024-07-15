@@ -55,7 +55,10 @@ function get_Output()
 
 setTimeout(()=>{
     socket.on('final-result',(arg)=>{
-        p.innerHTML=" "+arg;
+        let substring = arg.substring(11);
+        p.innerHTML=" "+substring;
+        //console.log(substring);
+        
     })
 },2000)
 
