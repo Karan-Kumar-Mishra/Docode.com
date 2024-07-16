@@ -1,6 +1,9 @@
 # Docode.com
 
-Welcome to DOcode! This platform allows users to write, compile, and execute code directly from their browser. Whether you're a beginner learning to code or a seasoned developer looking to quickly test snippets, DOcode has you covered.
+Welcome to DOcode! This platform allows users to write, compile, and execute code directly from their browser. Whether you're a beginner learning to code or a seasoned developer looking to quickly test snippets, DOcode has you covered. <br>
+
+# URL 
+https://docode-com.onrender.com
 
 # Features <br>
 1 Online Coding Environment: Write and run code in various programming languages. <br>
