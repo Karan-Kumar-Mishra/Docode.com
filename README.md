@@ -2,10 +2,10 @@
 
 Welcome to DOcode! This platform allows users to write, compile, and execute code directly from their browser. Whether you're a beginner learning to code or a seasoned developer looking to quickly test snippets, DOcode has you covered.
 
-# Features
-1 Online Coding Environment: Write and run code in various programming languages.
-2 Real-time Compilation: Instant feedback with live code execution.
-3 API Integration: Seamlessly integrate your applications with the DOcode API.
+# Features <br>
+1 Online Coding Environment: Write and run code in various programming languages. <br>
+2 Real-time Compilation: Instant feedback with live code execution. <br>
+3 API Integration: Seamlessly integrate your applications with the DOcode API. <br>
 
 # Installation
 Prerequisites
