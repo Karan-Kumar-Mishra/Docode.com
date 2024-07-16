@@ -11,10 +11,10 @@ Welcome to DOcode! This platform allows users to write, compile, and execute cod
 Prerequisites
 Before installing, ensure you have the following:
 
-1 Node.js (version 14 or higher)
-2 npm (Node Package Manager)
-3 Git
-4 Mongodb
+1 Node.js (version 14 or higher) <br>
+2 npm (Node Package Manager) <br>
+3 Git <br>
+4 Mongodb <br>
 
 ```
 apt update -y
