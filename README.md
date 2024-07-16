@@ -31,6 +31,13 @@ PORT=80' > .env
 npm install 
 node server.js
 ```
+
+# Docker 
+```
+docker pull karankumarmishra/docode-linux:latest
+docker run -it -p 80:80 karankumarmishra/docode-linux
+```
+<p>After running the above docker command go on http:127.0.0.1 </p>
 # Usage
 1.Visit DOcode.com to access the online coding environment.
 2.Select your preferred programming language from the dropdown.
