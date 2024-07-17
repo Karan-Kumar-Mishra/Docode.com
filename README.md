@@ -55,4 +55,38 @@ docker run -it -p 80:80 karankumarmishra/docode-linux
 5.View the output in the designated output section.<br>
 
 # API Documentation
-DOcode provides a powerful API for developers. Here’s how to get started
+DOcode provides a powerful API for developers. Here’s how to get started <br>
+# API integration
+To integrate the API of an Do-code, we need to follow the following steps. <br>
+<h4>End Point : https://docode-com.onrender.com/api/compile </h4> <br> <br>
+
+# Node js
+
+```
+
+const axios = require('axios');
+
+// Define the API endpoint and request body
+const url = 'https://docode-com.onrender.com/api/compile';
+const bodyParams = new URLSearchParams({
+    language: 'python',
+    code: 'print("hello")'
+});
+
+// Axios POST request
+axios.post(url, bodyParams)
+    .then(response => {
+        console.log('Response:', response.data);
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+
+```
+
+
+
+
+
+
+
