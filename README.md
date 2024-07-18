@@ -43,8 +43,8 @@ PORT=80
 
 # Docker 
 ```
-docker pull karankumarmishra/docode-linux:latest
-docker run -it -p 80:80 karankumarmishra/docode-linux
+docker pull karankumarmishra/docode:docode
+docker run -it -p 80:80 karankumarmishra/docode
 ```
 <p>After running the above docker command go on <a herf="http://127.0.0.1" target="_blank" >http://127.0.0.1</a> </p>
 <h1> Usage </h1> <br>
