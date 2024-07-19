@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(33, 37, 41, 1);
+}
+#section {
+  border: 2x solid red;
+  height: 98vh;
+  width: 98vw;
+  background-color: rgba(33, 37, 41, 1);
+  display: flex;
+  flex-direction: row;
+  z-index: -10;
+}
+#form {
+  width: 50vw;
+  height: 98vh;
+}
+#output-section {
+  width: 50vw;
+  height: 104vh;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  color: wheat;
+  border: 1px solid white;
+  padding: 1rem;
+}
+#buttons {
+  display: flex;
+  flex-direction: row;
+}
+#Usertext {
+  height: 98vh;
+  background-color: black;
+  color: aqua;
+}
+#language {
+  background-color: black;
+  color: white;
+}
+#output {
+  color: white;
+}
+#navbar {
+  border: 1px solid white;
+  border-radius: 0.2rem;
+}
+
+@media only screen and (min-width: 30px) and (max-width: 450px) and (min-height: 80px) and (max-height: 1000px) {
+  #section {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  #output-sectio {
+    width: 100vw;
+    height: 40vh;
+  }
+  #form {
+    width: 100vw;
+    height: 60vh;
+  }
+  #output-section {
+    width: 100vw;
+    height: 104vh;
+  }
+  #buttons{
+    height: vh;
+  }
+}
