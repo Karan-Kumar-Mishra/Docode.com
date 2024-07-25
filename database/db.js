@@ -1,9 +1,10 @@
 const mongoose = require('mongoose');
 let userSchema;
 let users;
+let URL="mongodb+srv://karan:1234@cluster0.fyj7aks.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 async function connectdb() {
     try {
-        await mongoose.connect('mongodb://127.0.0.1:27017/DOcode');
+        await mongoose.connect(URL);
         console.log("Connected to MongoDB");
     } catch (error) {
         console.error("Failed to connect to MongoDB:", error);
@@ -19,7 +20,7 @@ function makemodel()
 }
 async function disconnectdb() {
     try {
-        await mongoose.disconnect('mongodb://127.0.0.1:27017/DOcode');
+        await mongoose.disconnect(URL);
         console.log("disconnect to MongoDB");
     } catch (error) {
         console.error("Failed to disconnect to MongoDB:", error);
