@@ -83,7 +83,7 @@ function compile_code() {
       command = `clear && c++ ${filename} -o coutput && ./coutput `;
       break;
     case "python":
-      command = `clear && python ${filename} `;
+      command = `clear && python3 ${filename} `;
       break;
     case "nodejs":
       command = `clear && node ${filename} `;
