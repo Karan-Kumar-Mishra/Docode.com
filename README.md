@@ -3,8 +3,7 @@
 Welcome to DOcode! This platform allows users to write, compile, and execute code directly from their browser. Whether you're a beginner learning to code or a seasoned developer looking to quickly test snippets, DOcode has you covered. <br>
 
 # URL 
-https://docode-in.onrender.com/
-<h4>Alternate</h4>
+
 https://docode-com.onrender.com
 
 # Features <br>
