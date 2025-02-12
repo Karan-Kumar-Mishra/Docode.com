@@ -1,4 +1,6 @@
-# Docode.com
+![Screenshot (415)](https://github.com/user-attachments/assets/6f2b44cf-4fc6-4c1f-be64-d1acf5fba93c).com
+
+# Docode
 
 Welcome to DOcode! This platform allows users to write, compile, and execute code directly from their browser. Whether you're a beginner learning to code or a seasoned developer looking to quickly test snippets, DOcode has you covered. <br>
 
